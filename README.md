@@ -18,7 +18,6 @@ I obtained data from the twitter API where I collected information on the users 
 The data is stored into tables where I have one that is full of the accounts that other wayfair twitter followers also follow. There is an additional table storing the username of wayfairs twitter followers have. 
 
 Notebooks: 
-
 presentation link: https://github.com/colemon44/wayfair-twitter-api/blob/main/presentation.ipynb
 sql analysis link: https://github.com/colemon44/wayfair-twitter-api/blob/main/sql_analysis_cole_montoya.ipynb
 data collection link: https://github.com/colemon44/wayfair-twitter-api/blob/main/TwitterAPIcollection.ipynb
