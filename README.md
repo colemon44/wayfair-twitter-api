@@ -20,6 +20,7 @@ The data is stored into tables where I have one that is full of the accounts tha
 Notebooks: 
 presentation link: https://github.com/colemon44/wayfair-twitter-api/blob/main/presentation.ipynb
 sql analysis link: https://github.com/colemon44/wayfair-twitter-api/blob/main/sql_analysis_cole_montoya.ipynb
+data collection link: https://github.com/colemon44/wayfair-twitter-api/blob/main/TwitterAPIcollection.ipynb
 
 Future Improvements:
 	If I had more time I would have mainly focused on getting the pagination done bug free because I was forced to abandon pagination due to my inability to solve the errors. I also ran into a problem where it would not append to the current data after the 15 minute sleep time so I was forced to run if-exists=’replace’. If either of these worked it would have allowed me to retrieve more data and get more meaningful conclusions to make better marketing recommendations to the wayfair team. 
