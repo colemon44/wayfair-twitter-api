@@ -18,9 +18,11 @@ I obtained data from the twitter API where I collected information on the users 
 The data is stored into tables where I have one that is full of the accounts that other wayfair twitter followers also follow. There is an additional table storing the username of wayfairs twitter followers have. 
 
 Notebooks: 
-presentation link: https://github.com/colemon44/wayfair-twitter-api/blob/main/presentation.ipynb
+presentation link: https://github.com/colemon44/wayfair-twitter-api/blob/main/presentation.ipynb This notebook is a merge of my two other analysis and data collection notebooks that has been put in presentation slide format with rise.
 sql analysis link: https://github.com/colemon44/wayfair-twitter-api/blob/main/sql_analysis_cole_montoya.ipynb
+My sql analysis notebook contains the queries I performed to verify and analyze the collected data along with business reccomendations and comments
 data collection link: https://github.com/colemon44/wayfair-twitter-api/blob/main/TwitterAPIcollection.ipynb
+The data collection notebook contains the code I used to call data from the twitter API on Wayfairs's followers
 
 Future Improvements:
 	If I had more time I would have mainly focused on getting the pagination done bug free because I was forced to abandon pagination due to my inability to solve the errors. I also ran into a problem where it would not append to the current data after the 15 minute sleep time so I was forced to run if-exists=’replace’. If either of these worked it would have allowed me to retrieve more data and get more meaningful conclusions to make better marketing recommendations to the wayfair team. 
